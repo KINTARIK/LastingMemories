@@ -1,0 +1,277 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding-bottom: 440px;
+    background-image: url(../img/bgr-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container{
+    width: 725px;
+    margin: 0 auto;
+}
+
+.nav{
+    margin: 0;
+    margin-bottom: 224px;
+}
+
+.links-nav{
+    display: flex;
+    margin: 0;
+    padding-top: 40px;
+}
+
+.links-nav-link{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    list-style-type: none;
+}
+
+.links-nav-link:not(:last-child){
+    margin-right: 60px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.nav-link:hover{
+    color: #ffffffd8;
+    transition: .5s
+}
+
+.nav-link:active{
+    text-decoration: underline;
+    color: #ffffffb2;
+}
+
+.h1{
+    margin: 0;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.making-tables-heroes{
+    padding-bottom: 107px;
+    background: 900px bottom url(../img/bgr-making1.jpg),
+    1157px 35px url(../img/bgr-making2.jpg),
+    1333px 414px url(../img/bgr-making3.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.container{
+    width: 1032px;
+    margin: 0 auto;
+}
+
+.container-making-tables-heroes{
+    padding-top: 152px;
+}
+
+.h2{
+    margin: 0;
+    margin-bottom: 52px;
+    font-weight: 400;
+    font-size: 68px;
+    line-height: 68px;
+    color: #20201F;
+}
+
+.h2-making-tables-heroes{
+    width: 258px;
+}
+
+.sub-h2{
+    margin: 0;
+    margin-bottom: 69px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 33px;
+    color: #20201F;
+}
+
+.sub-h2-making-tables-heroes{
+    width: 468px;
+}
+
+.btn-link-making-tables-heroes{
+    display: flex;
+    align-items: baseline;
+}
+
+.btn{
+    padding: 18px 30px;
+    margin: 0;
+    margin-right: 28px;
+    border: 1px solid #20201F;
+    border-radius: 41.6429px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 19px;
+    background-color: #FFFFFF;
+}
+
+.btn:hover{
+    color: #424242;
+    background-color: #c2c2c2;
+    transition: .5s;
+}
+
+.btn:active{
+    color: #4242427a;
+    background-color: #c2c2c281;
+}
+
+.link-making-tables-heroes{
+    margin: 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #20201F;
+}
+
+.link-making-tables-heroes:hover{
+    color: #424242;
+    transition: .5s;
+}
+
+.link-making-tables-heroes:active{
+    color: #4242427a;
+    text-decoration: underline;
+}
+
+.our-collections{
+    padding: 116px 0 54px;
+    background: #E5E2DE;
+}
+
+.collections-slider-links{
+    margin: 0;
+    margin-bottom: 94px;
+    width: 663px;
+}
+
+.link-collections{
+    margin: 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #20201F;
+}
+
+.link-collections:not(:last-child){
+    margin-right: 28px;
+}
+
+.link-collections:hover{
+    color: #444444;
+}
+
+.link-collections:active{
+    color: #616161;
+    text-decoration: underline;
+}
+
+.slider{
+    display: flex;
+}
+
+.first-slide{
+    margin-right: 75px;
+}
+
+.h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 18px;
+    width: 591px;
+    height: 379px;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 54px;
+    color: #FFFFFF;
+    background-image:url(../img/bgr-slider1.jpg);
+    background-size: cover;
+}
+
+.sub-h3{
+    margin: 0;
+    background-image: url(../img/arrow-right.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #20201F;
+}
+
+.h3-second{
+    background-image:url(../img/bgr-slider2.jpg);
+}
+
+.second-slide{
+    transform: translateY(-213px);
+}
+
+.arrow-for-slider{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.page{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #20201F;
+}
+
+.find-a-dealer{
+    padding: 116px 0 254px;
+    background-image: url(../img/bgr-find-a-dealer.jpg);
+    background-repeat: no-repeat;
+    background-position: 990px;
+    background-size: contain;
+}
+
+.h2-find-a-dealer{
+    width: 258px;
+}
+
+.sub-h2-find-a-dealer{
+    width: 414px;
+}
+
+.form-find-a-dealer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-form-find-a-dealer{
+    padding: 18px 178px 21px 23px;
+    margin: 0;
+    margin-bottom: 37px;
+    border: 1px solid #8B8B8B;
+    border-radius: 14.1964px;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #8B8B8B;
+}
+
+
