@@ -274,4 +274,165 @@ body {
     color: #8B8B8B;
 }
 
+.terrace-section{
+    padding: 116px 0 112px;
+    background: 474px url(../img/bgr-terrace1.jpg),
+    1340px url(../img/bgr-terrace2.jpg),
+    1247px 430px url(../img/bgr-terrace3.jpg),
+    linear-gradient(to top, #20201F, #20201F);
+    background-repeat: no-repeat;
+}
 
+.container-terrace{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-terrace{
+    margin-bottom: 129px;
+    text-align: center;
+    color: #E5E2DE;
+}
+
+.joli-manages{
+    padding: 121px 0 115px;
+}
+
+.container-joli-manages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2-joli-manages{
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.become-a-dealer{
+    background: #F7F7F7;
+}
+
+.container-become-a-dealer{
+    display: flex;
+}
+
+.become-a-dealer-info{
+    padding: 115px 87px 311px 84px;
+}
+
+.h2-become-a-dealer{
+    width: 303px;
+    margin-bottom: 66px;
+}
+
+.sub-h2-become-a-dealer{
+    width: 400px;
+    margin-bottom: 62px;
+}
+
+.request{
+    padding: 59px 0 57px;
+    background: #E5E2DE;
+}
+
+.container-request{
+    display: flex;
+    width: 1097px;
+}
+
+.h2-request{
+    margin-right: 152px;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.form-request{
+    display: flex;
+    align-items: flex-start;
+}
+
+.title-form{
+    margin: 0;
+    margin-bottom: 23px;
+    font-size: 19px;
+    line-height: 23px;
+}
+
+.form-request-input{
+    width: 342px;
+    height: 62px;
+    border: 1px solid #8B8B8B;
+    border-radius: 14.1964px;
+    background-color:#E5E2DE;
+}
+
+.privacy-inf{
+    padding-left: 100px;
+    width: 495px;
+    height: 40px;
+    font-size: 19px;
+    line-height: 38px;
+    border: 1px solid #8B8B8B;
+    border-radius: 14.1964px;
+}
+
+.btn-form-request{
+    background: #E5E2DE;
+}
+
+.footer{
+    padding: 74px 0 78px;
+    background: #20201F;
+}
+
+.footer-nav{
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.link-logo{
+    margin-right: 156px;
+}
+
+.links-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.links-footer:not(:last-child){
+    margin-right: 40px;
+}
+
+.title-links-footer{
+    margin-bottom: 28px;
+    font-size: 19px;
+    line-height: 23px;
+    color: #E5E2DE;
+}
+
+.link-links-footer{
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 23px;
+    color: #E5E2DE;
+}
+
+.footer-privacy-info{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link-footer-privacy-info{
+    margin-right: 136px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #E5E2DE;
+}
+
+.social-link:not(:last-child){
+    margin-right: 16px;
+}
